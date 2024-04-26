@@ -1,0 +1,160 @@
+.bg-image-intre {
+    background-image: url('../img/banner-bg.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 50px;
+}
+
+
+.bg-image-between {
+    background-image: url("../img/cta-bg.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.header-margin-bottom1 {
+    margin-bottom: 13.5rem;
+}
+
+.header-margin-top1 {
+    margin-top: -5rem;
+}
+.header-margin-bottom {
+    margin-bottom: 5rem;
+}
+
+.header-margin-top {
+    margin-top: -5rem;
+}
+
+.bg-shadow {
+    background-color: rgba(228, 222, 222, 0.274);
+}
+.rain-drop {
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    position: absolute;
+  }
+  
+  .rain-drop:nth-child(even) {
+    background-color: #fff;
+  }
+  
+  @keyframes rain-drop-animation {
+    0% {
+      top: 0;
+    }
+  
+    100% {
+      top: -100px;
+    }
+  }
+  
+  .rain-drop {
+    animation: rain-drop-animation 10s infinite;
+  }
+  
+
+
+
+@media only screen and (max-width: 1200px) {
+
+    .big-font {
+        font-size: 90px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+
+    .big-font {
+        font-size: 75px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .big-font {
+        font-size: 50px;
+        color: red;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+
+    /* Small */
+    .big-font {
+        font-size: 30px;
+        color: green;
+    }
+}
+
+
+.bg-image-between2 {
+    background-image: url("../img/03.png");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-image-between1 {
+    background-image: url("../img/02.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.hover-1 {
+    position: relative;
+
+}
+
+
+.hover-1:hover {
+        background-color: #A2936D;
+        color: white;
+    
+}
+
+.hover-2 {
+    position: relative;
+}
+
+.hover-2:hover {
+        background-color: white;
+        color: black ;
+}
+
+.colorr {
+    color: #87A8EB;
+}
+
+
+
+
+@keyframes hover-1 {
+    0% {
+        width: 0;
+        height: 0;
+    }
+    50% {
+        width: 106px;
+        height: 2px;
+    }
+    75% {
+        width: 0;
+        height: 0;
+    }
+    100% {
+        width: 0;
+        height: 0;
+    }
+
+}
